@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 3000;
 
 const sourceDir = path.join(__dirname, 'src');
 const templateDir = path.join(__dirname, 'generated');
-const buildDir = path.join(__dirname, 'docs');
+const buildDir = path.join(__dirname, 'dist');
 
 const isProd = mode === 'production';
 const prodPlugins = [new ImageminPlugin({ test: /\.(jpe?g|png|gif|svg)$/i })];
