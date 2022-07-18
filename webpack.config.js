@@ -112,6 +112,10 @@ module.exports = {
           from: path.join(sourceDir, 'img'),
           to: 'img',
         },
+        {
+          from: path.join(sourceDir, 'CNAME'),
+          to: buildDir
+        }
       ],
       {
         ignore: ['.DS_Store'],
