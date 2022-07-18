@@ -113,7 +113,7 @@ module.exports = {
           to: 'img',
         },
         {
-          from: path.join(sourceDir, 'CNAME'),
+          from: path.join(__dirname, 'CNAME'),
           to: buildDir
         }
       ],
